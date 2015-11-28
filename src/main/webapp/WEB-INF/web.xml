@@ -33,4 +33,9 @@
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
     
+    <resource-ref>
+        <res-ref-name>openweathermap/weather</res-ref-name>
+        <res-type>java.lang.String</res-type>
+        <res-auth>Application</res-auth>
+    </resource-ref>
 </web-app>

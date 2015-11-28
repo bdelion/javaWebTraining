@@ -5,23 +5,32 @@
  */
 package fr.mosica.javawebtraining.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  *
  * @author florent
  */
+// To ignore any unknown properties in JSON input without exception:
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Weather {
 
-    private String localite;
+    private String name;
+
+    public Weather() {
+
+    }
 
     public Weather(String name) {
-        this.localite = name;
+        this.name = name;
     }
 
-    public String getLocalite() {
-        return localite;
+    public String getName() {
+        return name;
     }
 
-    public void setLocalite(String localite) {
-        this.localite = localite;
+    public void setName(String name) {
+        this.name = name;
     }
+
 }

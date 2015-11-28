@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" path="/javaWebTraining"></Context>
+<Context antiJARLocking="true" path="/javaWebTraining">    <ResourceLink name="openweathermap/weather" global="owm/weather" type="java.lang.String"></ResourceLink>
+</Context>
     
